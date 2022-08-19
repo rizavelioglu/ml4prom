@@ -1,5 +1,6 @@
 import argparse
 import pm4py
+import os
 from pm4py.objects.conversion.log import converter as log_converter
 from pm4py.objects.log.exporter.xes import exporter as xes_exporter
 from src.utils import print_info
@@ -197,7 +198,13 @@ if __name__ == "__main__":
                      "time": train_test_split_time,
                      "random": train_test_split_random}
 
+    os.makedirs(SPLIT_DATA_DIR + 'train')
+    os.makedirs(SPLIT_DATA_DIR + 'test')
+
     for dataset in DATASETS:
+        if os.path.exists(f"./data/{dataset}") is False:
+            print_info(f"Skipping {dataset} dataset as it doesn't exist.")
+            continue
         print_info(f"[INFO]Loading '{dataset}' and splitting it into train and test sets...")
         # Call respective function specified by `args.split_by` to collect split data as event log
         lm_train, lm_test, lp_train, lp_test = SPLIT_METHODS[args.split_by](DATA_DIR, dataset,

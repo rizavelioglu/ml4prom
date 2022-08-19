@@ -1,10 +1,9 @@
 # ML4ProM
 
 Please follow the notebooks to reproduce results:
-- [./notebooks/1_EDA.ipynb](./notebooks/1_EDA.ipynb) does **E**xploratory **D**ata **A**nalysis for each dataset and
-shows plots helping to understand datasets better,
-- [./notebooks/2_training.ipynb](./notebooks/2_training.ipynb) 
-
+- [./notebooks/1_EDA.ipynb](./notebooks/1_EDA.ipynb) downloads datasets and does **E**xploratory **D**ata **A**nalysis for each dataset to understand datasets better,
+- [./notebooks/2_training.ipynb](./notebooks/2_training.ipynb) executes training scripts and presents results,
+- [./notebooks/3_post-train.ipynb](./notebooks/3_post-train.ipynb) presents feature importances for each dataset and each ML model.
 
 
 ### How to train models and output results?
