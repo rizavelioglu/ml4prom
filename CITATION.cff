@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this repository, please consider citing it."
+title: "ML4ProM"
+abstract: "This repository implements methods presented in the paper: Explainable Artificial Intelligence for Improved Modeling of Processes."
+authors:
+- given-names: Velioglu
+  family-names: Riza
+  orcid: https://orcid.org/0000-0002-2160-4976
+preferred-citation:
+  type: article
+  title: "Explainable Artificial Intelligence for Improved Modeling of Processes"
+  doi: 10.1007/978-3-031-21753-1_31
+  url: https://link.springer.com/chapter/10.1007/978-3-031-21753-1_31
+  journal: "Intelligent Data Engineering and Automated Learning – IDEAL 2022"
+  authors:
+  - family-names: "Velioglu"
+    given-names: "Riza"
+  - family-names: "Göpfert"
+    given-names: "Jan Philip"
+  - family-names: "Artelt"
+    given-names: "André"
+  - family-names: "Hammer"
+    given-names: "Barbara"
+  year: 2022
+keywords:
+- machinelearning
+- explainableartificialintelligence
+- processmining
+repository-code: "https://github.com/rizavelioglu/ml4prom"
