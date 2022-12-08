@@ -1,4 +1,5 @@
 # ML4ProM
+Check out the paper on: [![arXiv](https://img.shields.io/badge/arXiv-2212.00695-b31b1b.svg)](https://arxiv.org/abs/2212.00695)
 
 Please follow the notebooks to reproduce results:
 - [./notebooks/1_EDA.ipynb](./notebooks/1_EDA.ipynb) downloads datasets and does **E**xploratory **D**ata **A**nalysis for each dataset to understand datasets better,
@@ -32,11 +33,16 @@ The following command does multiple things:
 python -m src.models.train_model --seq_encoding one-hot --remove_biased_feats --unique_traces
 ```
 
-
-
 ---
-#### Future work
-- time-series split for CV, see [scikit-learn](https://scikit-learn.org/stable/modules/cross_validation.html#time-series-split)
-- Encode data after train-test split! [see example code](https://stackoverflow.com/questions/55525195/do-i-have-to-do-one-hot-encoding-separately-for-train-and-test-dataset)
-- Check out [SHAP values](https://github.com/slundberg/shap)
----
+
+<h2><b> Citation: </b></h2>
+```
+@inproceedings{velioglu2022explainable,
+  title={Explainable Artificial Intelligence for Improved Modeling of Processes},
+  author={Velioglu, Riza and G{\"o}pfert, Jan Philip and Artelt, Andr{\'e} and Hammer, Barbara},
+  booktitle={International Conference on Intelligent Data Engineering and Automated Learning},
+  pages={313--325},
+  year={2022},
+  organization={Springer}
+}
+```
