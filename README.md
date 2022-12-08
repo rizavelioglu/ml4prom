@@ -36,6 +36,7 @@ python -m src.models.train_model --seq_encoding one-hot --remove_biased_feats --
 ---
 
 <h2><b> Citation: </b></h2>
+
 ```
 @inproceedings{velioglu2022explainable,
   title={Explainable Artificial Intelligence for Improved Modeling of Processes},
