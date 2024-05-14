@@ -6,7 +6,7 @@ pm4py~=2.2.16
 scikit-learn~=1.0.1
 seaborn==0.11.2
 termcolor==1.1.0
-tqdm==4.62.3
+tqdm==4.66.3
 xgboost==1.5.0
 nltk~=3.6.5
 tensorflow>=2.8.0
